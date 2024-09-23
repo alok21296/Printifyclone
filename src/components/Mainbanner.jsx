@@ -3,7 +3,7 @@ import mainbannerimage from '/Users/aloksingh/Desktop/Projects Deployed/printify
 
 const Mainbanner = () => {
   return (
-    <div className='main-banner '>
+    <div className='main-banner w-full h-full'>
       {/* This is Main Banner Section */}
       <div className='main-banner-wrapper xl:flex justify-between px-9 py-10 w-full'>
       <div className='main-banner-description mx-auto my-auto'>

@@ -6,7 +6,7 @@ const Header = () => {
   const [isMenuOpen,setIsMenuOpen]=useState(false)
   return (
     <>
-   <header className="flex justify-between gap-8 items-center text-black w-full h-16 px-8 md:px-8 bg-white drop-shadow-md sticky">
+   <header className="flex justify-between gap-8 items-center text-black w-full h-16 px-8 md:px-8 bg-white drop-shadow-md sticky top-0 z-10">
         <a href="#">
           <img src={logo} alt="logo" className="w-52 hover:scale-105 transition-all"/>
         </a>
